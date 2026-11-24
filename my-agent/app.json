@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/sprite/index",
+    "pages/pulldown/index",
+    "pages/ascii/index",
+    "pages/pulse/index",
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "my-agent"
+  }
+}

@@ -1,0 +1,32 @@
+# 打包产物(由 my-agent/ 构建生成)
+*.aix
+
+# 本机的 agent 绑定信息
+.aix/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# 密钥与本地配置
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude Code 本地设置
+.claude/settings.local.json
